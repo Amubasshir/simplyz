@@ -13,7 +13,7 @@ const Navbar = async (props: Props) => {
           width={150}
           height={150}
           alt="logo"
-          className="shadow-sm"
+          className=""
         />
       </aside>
       <nav className="absolute left-[50%] top-[50%] hidden translate-x-[-50%] translate-y-[-50%] transform text-slate-200 md:block">
