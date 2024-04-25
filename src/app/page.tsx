@@ -1,3 +1,4 @@
+import { CardContainer } from "@/components/global/3d-card";
 import { HeroParallax } from "@/components/global/connect-parallax";
 import { ContainerScroll } from "@/components/global/container-scroll-animation";
 import { InfiniteMovingCards } from "@/components/global/infinite-moving-cards";
@@ -43,6 +44,9 @@ export default function Home() {
       </section>
       <section className="mt-[-500px]">
         <LampComponent />
+        <div className="-mt-72 flex flex-col flex-wrap items-center justify-center gap-8 md:flex-row">
+          <CardContainer className="inter-var"></CardContainer>
+        </div>
       </section>
     </main>
   );
