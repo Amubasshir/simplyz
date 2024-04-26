@@ -102,7 +102,7 @@ export const LampContainer = ({
             maxSize={1}
             particleDensity={1200}
             className="h-full w-full"
-            particleColor="#FFFFFF"
+            particleColor="#889ca7"
           />
         </div>
 

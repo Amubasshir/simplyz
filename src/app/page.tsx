@@ -45,7 +45,7 @@ export default function Home() {
       </section>
       <section className="mt-[-500px]">
         <LampComponent />
-        <div className="-mt-72 flex flex-col flex-wrap items-center justify-center gap-8 md:flex-row">
+        <div className="-mt-72 mb-10 flex flex-col flex-wrap items-center justify-center gap-8 md:flex-row">
           <CardContainer className="inter-var">
             <CardBody className="group/card relative h-auto  w-full rounded-xl border border-black/[0.1] bg-gray-50 p-6 dark:border-white/[0.2] dark:bg-black dark:hover:shadow-2xl dark:hover:shadow-neutral-500/[0.1] md:!w-[350px]">
               <CardItem
@@ -140,7 +140,7 @@ export default function Home() {
               </div>
             </CardBody>
           </CardContainer>
-          <CardContainer className="inter-var ">
+          <CardContainer className="inter-var">
             <CardBody className="group/card relative h-auto  w-full rounded-xl border border-black/[0.1] bg-gray-50 p-6 dark:border-white/[0.2] dark:bg-black dark:hover:shadow-2xl dark:hover:shadow-neutral-500/[0.1] md:!w-[350px]">
               <CardItem
                 translateZ="50"
